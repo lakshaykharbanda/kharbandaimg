@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Framed Image Slider</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+    <div class="frame">
+        <div class="slider-container">
+            <div class="slider">
+                <img src="C:\xampp\htdocs\image slider\about.jpg" class="slide active" alt="Image 1">
+                <img src="C:\xampp\htdocs\image slider\bg.png" class="slide" alt="Image 2">
+                <img src="C:\xampp\htdocs\image slider\bg2.png" class="slide" alt="Image 3">
+                <img src="C:\xampp\htdocs\image slider\bg3.png" class="slide" alt="Image 4">
+            </div>
+            <div class="counter" id="counter">1 / 5</div>
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+    </div>
+
+    <script src="home.js"></script>
+</body>
+</html>
